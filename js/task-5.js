@@ -6,7 +6,7 @@ const outputRef = document.querySelector('span[id="name-output"]');
 //console.log(outputRef);
 inputRef.oninput = function() {
   outputRef.innerHTML = inputRef.value;
-  if (inputRef.value === '') {
-    outputRef.innerHTML = 'незнакомец';
+  if (inputRef.value === "") {
+    outputRef.innerHTML = "незнакомец";
   }
 };

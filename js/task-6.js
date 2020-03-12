@@ -3,7 +3,7 @@
 const validationValue = document.querySelector('input[id="validation-input"]');
 //console.log(validationValue);
 const dataLength = validationValue.getAttribute("data-length");
-//console.log(dataLength); // 6 
+//console.log(dataLength); // 6
 const validation = () => {
   const inputText = validationValue.value.trim();
   if (inputText.length < dataLength) {

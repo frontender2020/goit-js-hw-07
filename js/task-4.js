@@ -1,8 +1,12 @@
 const value = document.querySelector('span[id="value"]');
 //console.log(value);
-const incrementButton = document.querySelector('button[data-action="increment"]');
+const incrementButton = document.querySelector(
+  'button[data-action="increment"]'
+);
 //console.log(incrementButton);
-const decrementButton = document.querySelector('button[data-action="decrement"]');
+const decrementButton = document.querySelector(
+  'button[data-action="decrement"]'
+);
 //console.log(decrementButton)
 let counterValue = 0;
 const increment = () => {

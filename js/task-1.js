@@ -12,7 +12,9 @@ const getTitle = heading => heading.textContent;
 const getCategoriesInfo = array =>
   array.forEach((element, index) => {
     console.log(`Категория: ${getTitle(title[index])}`);
-    console.log(`Количество элементов: ${getCountItems(listInList[index].children)}`);
+    console.log(
+      `Количество элементов: ${getCountItems(listInList[index].children)}`
+    );
   });
 console.log(`В списке ${getCountItems(categories.children)} категории`);
 getCategoriesInfo(items);
